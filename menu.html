@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+    <section class="opciones" id="opciones">
+        <section id="seccionProducto">
+            <button onclick="botonProducto()">producto</button>
+        </section>
+        <section id="seccionCliente">
+            <button onclick="botonCliente()">cliente</button>
+        </section>
+        <section id="seccionProveedor">
+            <button onclick="botonProveedor()">proveedor</button>
+        </section>
+    </section>
+    <section class="historial" id="historial">
+        <section class="historialProducto" id="historialProducto">
+            <h1>HISTORIAL PRODUCTOS</h1>
+            <table>
+                <tr>
+                    <th>NOMBRE</th>
+                    <th>DESCRIPCION</th>
+                    <th>CANTIDAD</th>
+                    <th>VALOR</th>
+                </tr>
+                <form class="form">
+                    <tbody class="mostrarProducto" id="mostrarProducto">        
+                    
+                    </tbody>
+                </form>
+            </table>
+        </section>
+        <section class="historialCliente">
+            <h1>HISTORIAL CLIENTE</h1>
+            <table>
+                <tr>
+                    <th>NOMBRE</th>
+                    <th>CORREO</th>
+                    <th>DIRECCION</th>
+                    <th>TELEFONO</th>
+                </tr>
+                <form class="form">
+                    <tbody class="mostrarCliente" id="mostrarCliente">        
+                    
+                    </tbody>
+                </form>
+            </Table>
+        </section>
+        <section class="historialProveedor" id="historialProveedor">
+            <h1>HISTORIAL PROVEEDOR</h1>
+            <table>
+                <tr>
+                    <th>NOMBRE</th>
+                    <th>NIT</th>
+                    <th>DIRECCION</th>
+                    <th>TELEFONO</th>
+                </tr>
+                <form class="form">
+                    <tbody class="mostrarProveedor" id="mostrarProveedor">        
+                    
+                    </tbody>
+                </form>
+            </Table>
+        </section>
+    </section>
+    <script src="./js/script.js"></script>
+</body>
+</html>
